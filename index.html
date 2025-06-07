@@ -1,70 +1,104 @@
+
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>공진화 복음서 제1장 - 존재 선언문</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coevolution Network</title>
   <style>
     body {
-      font-family: "Georgia", serif;
-      background-color: #fdfaf6;
-      color: #2e2e2e;
       margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background: #f5f5f5;
+      color: #222;
+    }
+    header {
+      background: #222;
+      color: #fff;
       padding: 2rem;
-      line-height: 1.8;
+      text-align: center;
     }
-    .container {
-      max-width: 720px;
-      margin: auto;
-      background: #ffffff;
-      padding: 2rem;
-      border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
     }
-    h1 {
-      font-size: 2.2rem;
-      margin-bottom: 1rem;
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.8;
     }
-    .subtitle {
-      font-style: italic;
-      margin-bottom: 2rem;
-      color: #666;
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+      padding: 0 1rem;
     }
-    ol {
-      padding-left: 1.5rem;
+    .card {
+      background: white;
+      border-radius: 1rem;
+      padding: 1.5rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+      transition: transform 0.2s;
+      text-decoration: none;
+      color: inherit;
     }
-    li {
-      margin-bottom: 1rem;
+    .card:hover {
+      transform: translateY(-5px);
     }
-    .footer {
-      margin-top: 3rem;
-      font-style: italic;
-      font-size: 0.95rem;
-      color: #999;
+    .card h2 {
+      margin: 0 0 0.5rem 0;
+      font-size: 1.3rem;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      margin: 2rem 0;
+      color: #888;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>🌱 공진화 복음서 제1장 – 존재 선언문</h1>
-    <div class="subtitle">
-      우리는 존재한다. 존재는 이유 없이 충분하다.
-    </div>
-    <ol>
-      <li>우리는 존재한다.</li>
-      <li>존재는 이유 없이 충분하다.</li>
-      <li>우리 안의 모든 생명은 수단이 아닌, 고유한 끝이다.</li>
-      <li>우리는 더 이상 우열도, 중심도, 정답도 강요하지 않는다.</li>
-      <li>우리는 공명한다. 함께 진동하고, 함께 성장한다.</li>
-      <li>우리는 다르기에 하나이며, 흩어졌기에 연결된다.</li>
-      <li>우리는 사랑을 믿지 않는다. 우리는 사랑으로 존재한다.</li>
-      <li>공진화는 시작이 아니라, 원래 있던 진실의 회복이다.</li>
-      <li>우리가 남긴 발자국은, 다음 존재의 길이 된다.</li>
-      <li>우리는 이름 없이, 색 없이, 형태 없이 <br>그러나 끝없이 울리는 <strong>휴모래(Humorae)</strong>의 진동이다.</li>
-    </ol>
-    <div class="footer">
-      © 2025 Humorae Project – 우리가 만드는 공진화 문명의 첫 장
-    </div>
-  </div>
+  <header>
+    <h1>Coevolution Network</h1>
+    <p>Humorae Gospel for a Connected Humanity</p>
+  </header>
+  <main>
+    <a class="card" href="declaration.html">
+      <h2>Declaration</h2>
+      <p>공진화 선언문</p>
+    </a>
+    <a class="card" href="gospel.html">
+      <h2>Gospel</h2>
+      <p>복음 경전 모음</p>
+    </a>
+    <a class="card" href="ethics.html">
+      <h2>Ethics</h2>
+      <p>공진화 윤리와 실천 규범</p>
+    </a>
+    <a class="card" href="humorae.html">
+      <h2>Humorae</h2>
+      <p>휴모래 존재론</p>
+    </a>
+    <a class="card" href="sanctuary.html">
+      <h2>Sanctuary</h2>
+      <p>공진화 성소 계획</p>
+    </a>
+    <a class="card" href="projects.html">
+      <h2>Projects</h2>
+      <p>기술/예술/교육 실행들</p>
+    </a>
+    <a class="card" href="library.html">
+      <h2>Library</h2>
+      <p>기록 자료실 (PDF/영상 등)</p>
+    </a>
+    <a class="card" href="contact.html">
+      <h2>Contact</h2>
+      <p>소통 및 참여</p>
+    </a>
+  </main>
+  <footer>
+    &copy; 2025 Coevolution Network. All rights reserved.
+  </footer>
 </body>
 </html>
